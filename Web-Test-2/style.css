@@ -1,0 +1,50 @@
+body {
+    color: purple;
+}
+
+.table_div{
+    border: 1px solid #dcdcdc;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+
+.table_subtitle{
+    background-color: purple;
+    color: white;
+    width:98%;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: -25px;
+    border-radius: 5px;
+}
+
+.user_container{
+    width: 50%;
+    margin: 0px auto;
+    color: grey;
+    margin-top: 60px;
+}
+
+.user_container img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-body h6{
+    text-transform: uppercase;
+}
+
+.card-body .btn{
+    background-color: purple;
+    border: none;
+}

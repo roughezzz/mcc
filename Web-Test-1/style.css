@@ -1,0 +1,19 @@
+body {
+    color: purple;
+}
+
+.table_div{
+    border: 1px solid #dcdcdc;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+
+.table_subtitle{
+    background-color: purple;
+    color: white;
+    width:98%;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: -25px;
+    border-radius: 5px;
+}

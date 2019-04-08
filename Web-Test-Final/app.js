@@ -15,6 +15,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 //For setting up the ejs view engine
 app.set("view engine", "ejs");
 
+//For setting external stylesheets and scripts
+app.use(express.static(__dirname + "/public"));
+
 seedDB();
 
 // Application Code 
@@ -29,10 +32,13 @@ app.get("/table",function(req, res){
             console.log(err);
         }
         else{
-            // res.render("/table", {table: allData});
-            res.send("Table is working")
+            res.render("table", {table: allData});
         }
     });
+});
+
+app.get("/user", function(req, res) {
+    res.render("user");
 });
 
 // For listening the port and ip of localhost

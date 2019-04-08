@@ -2,6 +2,7 @@ var mongoose = require("mongoose");
 
 //SCHEMA SETUP
 var tableSchema =  new mongoose.Schema({
+    reference_number: String,
     name: String,
     rank: String,
     description: String,
